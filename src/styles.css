@@ -17,13 +17,14 @@ body{
     position: fixed;
     top:0;
     left :0;
-    width : 80px;
+    width :80px;
     height :100%;
     background: rgba(0, 0, 0, .5);
     backdrop-filter : blur(5px);
     border-right : 2px solid rgba(255, 255, 255, .07);
     padding: 6px 14px;
-    transition : .5s ease
+    transition : .5s ease;
+    overflow: hidden;
 }
 .sidebar.active {
     width : 240px
