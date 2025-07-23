@@ -107,3 +107,9 @@ body{
     text-align : center;
     line-height:  50px;
 }
+
+.list-logout{
+    position: absolute;
+    bottom: 0;
+    margin: 15px 0
+}
