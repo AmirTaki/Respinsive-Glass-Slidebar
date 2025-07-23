@@ -173,9 +173,15 @@ body{
     text-align : center;
     line-height: 35px;
     pointer-events: none;
+    opacity: 0;
 }
 
 .sidebar ul li:hover .tooltip {
     top : 50%;
-    transition : .5s ease
+    transition : .5s ease;
+    opacity: 1;
+}
+
+.sidebar.active ul li .tooltip {
+    display: none
 }
