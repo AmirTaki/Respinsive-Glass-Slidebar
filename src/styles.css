@@ -32,6 +32,8 @@ section{
     transition : .5s ease;
     /* overflow: hidden; */
 }
+
+
 .sidebar.active {
     width : 240px
 } 
