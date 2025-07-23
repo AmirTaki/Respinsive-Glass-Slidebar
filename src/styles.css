@@ -34,3 +34,8 @@ body{
     pointer-events : none;
 
 }
+
+.logo i {
+    font-size : 28px;
+    margin-right : 5px ;
+}
