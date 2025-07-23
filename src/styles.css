@@ -133,3 +133,14 @@ body{
     bottom: 0;
     margin: 15px 0
 }
+
+.sidebar .links-name {
+    opacity: 0;
+    pointer-events: none;
+    transition : opacity .3s ease
+}
+
+.sidebar.active .links-name{
+    opacity: 1;
+    pointer-events : auto
+}
