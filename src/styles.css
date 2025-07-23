@@ -35,7 +35,12 @@ body{
     width :100%;
     height :50px;
     pointer-events : none;
+    opacity: 0;
+    transition : .3s ease
+}
 
+.sidebar.active .logo{
+    opacity: 1;
 }
 
 .logo i {
