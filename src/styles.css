@@ -52,6 +52,12 @@ body{
     font-size : 20px
 }
 
+
+.sidebar ul .list-item.active a {
+    background-color: #327aff;
+}
+
+
 #btn {
     position: absolute;
     top:6px;
