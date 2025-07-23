@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 
-body{
+section{
     min-height: 100vh;
     background: url('./images/bg.jpg');
     background-size : cover;
     background-position : center ;
-
+    animation:  animateBg 5s linear infinite;
 }
 
 
