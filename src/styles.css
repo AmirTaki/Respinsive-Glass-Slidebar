@@ -91,3 +91,11 @@ body{
     font-size : 22px;
     z-index :99
 }
+
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    color :#fff;
+    text-decoration : none;
+}
