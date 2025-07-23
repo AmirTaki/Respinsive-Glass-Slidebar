@@ -24,7 +24,7 @@ body{
     border-right : 2px solid rgba(255, 255, 255, .07);
     padding: 6px 14px;
     transition : .5s ease;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .sidebar.active {
     width : 240px
@@ -157,4 +157,24 @@ body{
     transition-delay: .2s;
     opacity: 1;
     pointer-events : auto
+}
+
+.tooltip{
+    position: absolute;
+    top : 0;
+    left : 130px;
+    transform: translate(-50%, -50%);
+    width: 122px;
+    height : 35px;
+    background: #327aff;
+    color:#fff;
+    border-radius : 6px;
+    box-shadow : 0 5px 10px rgba(0, 0, 0, .2);
+    text-align : center;
+    line-height: 35px;
+    pointer-events: none;
+}
+
+.sidebar:active .tooltip {
+    
 }
