@@ -175,6 +175,7 @@ body{
     pointer-events: none;
 }
 
-.sidebar:active .tooltip {
-    
+.sidebar ul li:hover .tooltip {
+    top : 50%;
+    transition : .5s ease
 }
