@@ -99,6 +99,7 @@ body{
     color :#fff;
     text-decoration : none;
     transition : background .5s ease;
+    border-radius : 6px;
 }
 
 .sidebar ul li a:hover {
