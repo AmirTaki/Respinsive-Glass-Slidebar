@@ -115,6 +115,7 @@ body{
     color :#fff;
     text-decoration : none;
     transition : background .5s ease;
+    white-space: none;
     border-radius : 6px;
 }
 
@@ -131,7 +132,12 @@ body{
 .list-logout{
     position: absolute;
     bottom: 0;
-    margin: 15px 0
+    margin: 15px 0;
+    width: 64%;
+}
+
+.sidebar.active .list-logout {
+    width: 89%;
 }
 
 .sidebar .links-name {
@@ -141,6 +147,7 @@ body{
 }
 
 .sidebar.active .links-name{
+    transition-delay: .2s;
     opacity: 1;
     pointer-events : auto
 }
