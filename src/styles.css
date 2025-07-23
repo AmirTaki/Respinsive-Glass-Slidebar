@@ -97,6 +97,10 @@ body{
     color: #fff
 }
 
+.sidebar.active input {
+   padding:  0 20px 0 50px ; 
+}
+
 .sidebar ul li .bx-search {
     position: absolute;
     color: #fff;
